@@ -1,7 +1,7 @@
 {
-    "name": "Git Configuration File (.gitconfig)",
+    "name": "Git Configuration Files",
     "scopeName": "text.gitconfig",
-    "fileTypes": [".gitconfig"],
+    "fileTypes": [".gitconfig",".gitignore"],
     "patterns": [
         {
             "name": "section.gitconfig",
@@ -13,12 +13,21 @@
         },
         {
             "name": "comment.gitconfig",
-            "match": "^(\\s*)(#.*)$",
+            "match": "^(\\s*)?(#[^#]).*$",
             "captures": {
                 "1": { "name": "whitespace.gitconfig" },
                 "2": { "name": "comment.gitconfig" }
             },
             "comment": "Comments beginning with #."
+        },
+        {
+            "name": "double.comment.gitconfig",
+            "match": "^#{2}.*$",
+            "captures": {
+                "1": { "name": "double.whitespace.gitconfig" },
+                "2": { "name": "double.comment.gitconfig" }
+            },
+            "comment": "Comment line beginning with ##."
         },
         {
             "name": "meta.declaration.gitconfig",

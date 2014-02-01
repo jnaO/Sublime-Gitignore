@@ -43,10 +43,33 @@
 			<key>comment</key>
 			<string>Comments beginning with #.</string>
 			<key>match</key>
-			<string>^(\s*)(#.*)$</string>
+			<string>^(\\s*)?(#[^#]).*$</string>
 			<key>name</key>
 			<string>comment.gitconfig</string>
 		</dict>
+
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>double.whitespace.gitconfig</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>double.comment.gitconfig</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Comment line beginning with ##.</string>
+			<key>match</key>
+			<string>^#{2}.*$</string>
+			<key>name</key>
+			<string>double.comment.gitconfig</string>
+		</dict>
+
 		<dict>
 			<key>captures</key>
 			<dict>
