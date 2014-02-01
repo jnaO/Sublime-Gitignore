@@ -25,48 +25,60 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Comment</string>
+			<string>Git Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment.gitconfig</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#93A1A1</string>
+				<string>#667B83</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Git Configuration Section</string>
+			<string>Git Double Comment Line</string>
 			<key>scope</key>
-			<string>section</string>
+			<string>double.comment.gitconfig</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#eee8d5</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#6c71c4</string>
+				<string>#D13A82</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Git Configuration Section</string>
+			<key>scope</key>
+			<string>section.gitconfig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D13A82</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Git Configuration Section Name</string>
 			<key>scope</key>
-			<string>section.name</string>
+			<string>section.name.gitconfig</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#EEE8D5</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Git Property Declaration</string>
 			<key>scope</key>
-			<string>meta.declaration</string>
+			<string>meta.declaration.gitconfig</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -77,53 +89,53 @@
 			<key>name</key>
 			<string>Git Property Name</string>
 			<key>scope</key>
-			<string>meta.property</string>
+			<string>meta.property.gitconfig</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#dc322f</string>
+				<string>#2E8CCF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Git Property Value</string>
 			<key>scope</key>
-			<string>meta.value</string>
+			<string>meta.value.gitconfig</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#002b36</string>
+				<string>#85981C</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Git Quote Symbol</string>
 			<key>scope</key>
-			<string>punctuation.quote</string>
+			<string>punctuation.quote.gitconfig</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#002b36</string>
+				<string>#85981C</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Git Equals Symbol</string>
 			<key>scope</key>
-			<string>punctuation.equals</string>
+			<string>punctuation.equals.gitconfig</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#839496</string>
+				<string>#AA881C</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Git Whitespace</string>
 			<key>scope</key>
-			<string>whitespace</string>
+			<string>whitespace.gitconfig</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -131,7 +143,7 @@
 				<key>foreground</key>
 				<string>#93a1a1</string>
 			</dict>
-		</dict>
+	</dict>
 	</array>
 	<key>uuid</key>
 	<string>fa6c0b6b-449c-4b86-ace4-03c431e5dad2</string>
